@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>PROJECT</title>
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <label for="request">token</label>
+                <input name="token" id="token" required type="text" />
+            </div>
+            <div>
+                <label for="request">request</label>
+                <input name="request" id="resquest" required type="text" />
+            </div>
+            <div>
+                <label for="limit">limit</label>
+                <input name="limit" id="limit"  required type="number" />
+            </div>
+            <div>
+                <label for="lang">Language</label>
+                <input name="lang" id="lang"  required type="text" />
+            </div>
+        </form>
+        <button onclick="createData()">CLICK</button>
+    </div>
+    <div class="result-container">
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
